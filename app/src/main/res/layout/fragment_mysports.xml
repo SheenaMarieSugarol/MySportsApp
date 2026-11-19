@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F6FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Sports 🏆"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#173D63"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose your favorite sport!"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnBasketball"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="Basketball"
+            android:textSize="20sp"
+            android:backgroundTint="#173D63"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnArchery"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="Archery"
+            android:textSize="20sp"
+            android:backgroundTint="#247A52"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnVolleyball"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="Volleyball"
+            android:textSize="20sp"
+            android:backgroundTint="#D47A32"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnBadminton"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="Badminton"
+            android:textSize="20sp"
+            android:backgroundTint="#7654A5"
+            android:layout_marginBottom="12dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

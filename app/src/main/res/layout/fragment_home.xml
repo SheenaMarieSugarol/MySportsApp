@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F2F6FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO SPORTS HUB"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#173D63"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover sports. Explore your passion. Stay active!"
+        android:textSize="17sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

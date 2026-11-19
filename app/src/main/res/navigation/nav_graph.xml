@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mysportsapp.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/mySportsFragment"
+        android:name="com.example.mysportsapp.MySportsFragment"
+        android:label="My Sports">
+
+        <action
+            android:id="@+id/action_mySports_to_basketball"
+            app:destination="@id/basketballFragment" />
+
+        <action
+            android:id="@+id/action_mySports_to_archery"
+            app:destination="@id/archeryFragment" />
+
+        <action
+            android:id="@+id/action_mySports_to_volleyball"
+            app:destination="@id/volleyballFragment" />
+
+        <action
+            android:id="@+id/action_mySports_to_badminton"
+            app:destination="@id/badmintonFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.mysportsapp.FavoritesFragment"
+        android:label="Favorites" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.mysportsapp.ProfileFragment"
+        android:label="Profile" />
+
+    <fragment
+        android:id="@+id/basketballFragment"
+        android:name="com.example.mysportsapp.BasketballFragment"
+        android:label="Basketball" />
+
+    <fragment
+        android:id="@+id/archeryFragment"
+        android:name="com.example.mysportsapp.ArcheryFragment"
+        android:label="Archery" />
+
+    <fragment
+        android:id="@+id/volleyballFragment"
+        android:name="com.example.mysportsapp.VolleyballFragment"
+        android:label="Volleyball" />
+
+    <fragment
+        android:id="@+id/badmintonFragment"
+        android:name="com.example.mysportsapp.BadmintonFragment"
+        android:label="Badminton" />
+
+</navigation>
